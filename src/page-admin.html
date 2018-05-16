@@ -1,0 +1,113 @@
+<!-- @@include includes/header-admin.html -->
+
+<div class="page-top">
+  <a href="#"><i class="icon-basket"></i></a>
+  <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+</div>
+<div class="page-left">
+  <div class="logo">
+    <img src="images/logo.svg" alt=""  />
+  </div>
+  <nav>
+    <ul class="nav-primary">
+      <li><a href="#">Commandes</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="page-content">
+  <h1>Commandes en attente</h1>
+  <div class="grid-flex">
+    <div class="column w-33">
+      <div class="box-commande">
+        <span>Commande de</span>
+        <p class="name">SCIAMPAGNA Loïc</p>
+        <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
+        <button type="button" class="btn bg-green inverse"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse"><i class="fas fa-times"></i></button>
+
+        <div class="price">
+          <span>5 plats pour</span>
+          <div>35,40 €</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page-modals">
+  <div class="btn-close-modal trigger-close-modal"><i class="icon-cross"></i></div>
+  <div class="box-modal" data-modal="voirCommande">
+    <div class="btn-close-modal trigger-close-modal"><i class="icon-cross"></i></div>
+
+    <div class="grid-flex v-align-middle mb-3 header">
+      <div class="column">
+        <span class="order-for">Commande de</span>
+        <h2>SCIAMPAGNA Loïc</h2>
+      </div>
+      <div class="column">
+        <div class="infos-contact">
+           +33 6 64 50 27 70 <i class="fas fa-phone"></i><br  />
+           <a href="mailto:l.sciampagna@live.fr">l.sciampagna@live.fr</a> <i class="fas fa-envelope"></i><br  />
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <form class="table-basket-content">
+      <div class="grid-flex v-align-middle">
+        <div class="column w-50">
+          <div class="box-food">
+            <div class="column-left" style="background-image:url('images/visual-food-1.jpg');"></div>
+            <div class="column-right">
+              <div class="title">Poulet aux pousses de bambou</div>
+              <div class="footer mt-0 font-size-14">
+                Accompagnement :&nbsp;<em>Riz</em> <br  />
+                Quantité :&nbsp;<em>3</em>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column w-50">
+          <div class="box-food">
+            <div class="column-left" style="background-image:url('images/visual-food-3.jpg');"></div>
+            <div class="column-right">
+              <div class="title">Poulet aux ananas</div>
+              <div class="footer mt-0 font-size-14">
+                Accompagnement :&nbsp;<em>Nouilles</em> <br  />
+                Quantité :&nbsp;<em>1</em>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column w-50">
+          <div class="box-food">
+            <div class="column-left" style="background-image:url('images/visual-food-5.jpg');"></div>
+            <div class="column-right">
+              <div class="title">Ribs de porc au caramel</div>
+              <div class="footer mt-0 font-size-14">
+                Accompagnement :&nbsp;<em>Nouilles</em> <br  />
+                Quantité :&nbsp;<em>1</em>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column w-50">
+          <div class="box-food">
+            <div class="column-left" style="background-image:url('images/visual-food-8.jpg');"></div>
+            <div class="column-right">
+              <div class="title">Canard au citron</div>
+              <div class="footer mt-0 font-size-14">
+                Accompagnement :&nbsp;<em>Nouilles</em> <br  />
+                Quantité :&nbsp;<em>1</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="total-commande text-right mb-2 font-size-20"><b>Total de la commande : 30,40 €</b></div>
+    </form>
+  </div>
+</div>
