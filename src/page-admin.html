@@ -10,7 +10,8 @@
   </div>
   <nav>
     <ul class="nav-primary">
-      <li><a href="#">Commandes</a></li>
+      <li><a href="page-admin.html" class="is-selected">Commandes</a></li>
+      <li><a href="page-gestion-plats.html">Administration des plats</a></li>
     </ul>
   </nav>
 </div>
@@ -22,8 +23,64 @@
         <span>Commande de</span>
         <p class="name">SCIAMPAGNA Loïc</p>
         <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
-        <button type="button" class="btn bg-green inverse"><i class="fas fa-check"></i></button>
-        <button type="button" class="btn bg-red inverse"><i class="fas fa-times"></i></button>
+        <button type="button" class="btn bg-green inverse trigger-open-modal" data-modal="accepterCommande"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse trigger-open-modal" data-modal="refuserCommande"><i class="fas fa-times"></i></button>
+
+        <div class="price">
+          <span>5 plats pour</span>
+          <div>35,40 €</div>
+        </div>
+      </div>
+    </div>
+    <div class="column w-33">
+      <div class="box-commande">
+        <span>Commande de</span>
+        <p class="name">SCIAMPAGNA Loïc</p>
+        <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
+        <button type="button" class="btn bg-green inverse trigger-open-modal" data-modal="accepterCommande"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse trigger-open-modal" data-modal="refuserCommande"><i class="fas fa-times"></i></button>
+
+        <div class="price">
+          <span>5 plats pour</span>
+          <div>35,40 €</div>
+        </div>
+      </div>
+    </div>
+    <div class="column w-33">
+      <div class="box-commande">
+        <span>Commande de</span>
+        <p class="name">SCIAMPAGNA Loïc</p>
+        <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
+        <button type="button" class="btn bg-green inverse trigger-open-modal" data-modal="accepterCommande"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse trigger-open-modal" data-modal="refuserCommande"><i class="fas fa-times"></i></button>
+
+        <div class="price">
+          <span>5 plats pour</span>
+          <div>35,40 €</div>
+        </div>
+      </div>
+    </div>
+    <div class="column w-33">
+      <div class="box-commande">
+        <span>Commande de</span>
+        <p class="name">SCIAMPAGNA Loïc</p>
+        <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
+        <button type="button" class="btn bg-green inverse trigger-open-modal" data-modal="accepterCommande"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse trigger-open-modal" data-modal="refuserCommande"><i class="fas fa-times"></i></button>
+
+        <div class="price">
+          <span>5 plats pour</span>
+          <div>35,40 €</div>
+        </div>
+      </div>
+    </div>
+    <div class="column w-33">
+      <div class="box-commande">
+        <span>Commande de</span>
+        <p class="name">SCIAMPAGNA Loïc</p>
+        <button type="button" class="btn bg-blue inverse trigger-open-modal" data-modal="voirCommande"><i class="fas fa-eye"></i></button>
+        <button type="button" class="btn bg-green inverse trigger-open-modal" data-modal="accepterCommande"><i class="fas fa-check"></i></button>
+        <button type="button" class="btn bg-red inverse trigger-open-modal" data-modal="refuserCommande"><i class="fas fa-times"></i></button>
 
         <div class="price">
           <span>5 plats pour</span>
@@ -109,5 +166,29 @@
 
       <div class="total-commande text-right mb-2 font-size-20"><b>Total de la commande : 30,40 €</b></div>
     </form>
+  </div>
+
+  <div class="box-modal" data-modal="accepterCommande">
+    <div class="btn-close-modal trigger-close-modal"><i class="icon-cross"></i></div>
+    <div class="page-wrapper">
+      <h2>Accepter commande</h2>
+      <p>Etes-vous sur de vouloir accepter la commande de <strong>SCIAMPAGNA Loïc</strong> ?</p>
+      <p class="text-right">
+        <button type="button" class="btn bg-green inverse">Accepter</button>
+        <button type="button" class="btn bg-gold inverse ml-2">Annuler</button>
+      </p>
+    </div>
+  </div>
+
+  <div class="box-modal" data-modal="refuserCommande">
+    <div class="btn-close-modal trigger-close-modal"><i class="icon-cross"></i></div>
+    <div class="page-wrapper">
+      <h2>Refuser commande</h2>
+      <p>Etes-vous sur de vouloir refuser la commande de <strong>SCIAMPAGNA Loïc</strong> ?</p>
+      <p class="text-right">
+        <button type="button" class="btn bg-red inverse">Refuser</button>
+        <button type="button" class="btn bg-gold inverse ml-2">Annuler</button>
+      </p>
+    </div>
   </div>
 </div>
